@@ -172,10 +172,10 @@ return dDisplay + hDisplay + mDisplay + sDisplay;
 
 
 const reply = (teks) => {
-    ZimBotInc.sendMessage(m.chat, {text: teks, contextInfo: {"externalAdReply": {title: "ZIM BOT V4",mediaType: 3, renderLargerThumbnail: false, showAdAttribution: true, detectLinks: true,body: "DRIPS OFC", thumbnail: fs.readFileSync('./drips.jpg'),sourceUrl: ("https://youtu.be/KNu-gr2h7bo")}}})
+    ZimBotInc.sendMessage(m.chat, {text: teks, contextInfo: {"externalAdReply": {title: "WhanSaff",mediaType: 3, renderLargerThumbnail: false, showAdAttribution: true, detectLinks: true,body: "Gerall", thumbnail: fs.readFileSync('./drips.jpg'),sourceUrl: ("https://biodata.gerallrall.repl.co")}}})
 }
 const replay = (teks) => {
-    ZimBotInc.sendMessage(m.chat, {text: teks, contextInfo: {"externalAdReply": {title: "ZIM BOT V4",mediaType: 3, renderLargerThumbnail: false, showAdAttribution: true, body: "DRIPS OFC", thumbnail: fs.readFileSync('./drips.jpg'),sourceUrl: ("https://youtu.be/KNu-gr2h7bo")}}})
+    ZimBotInc.sendMessage(m.chat, {text: teks, contextInfo: {"externalAdReply": {title: "WhanSaff",mediaType: 3, renderLargerThumbnail: false, showAdAttribution: true, body: "Gerall", thumbnail: fs.readFileSync('./drips.jpg'),sourceUrl: ("https://biodata.gerallrall.repl.co")}}})
 }
 
 const drip =  {
@@ -188,11 +188,11 @@ participant : '0@s.whatsapp.net'
     isForwarded: false, // ini biar ada tulisannya diteruskan berkali-kali, jika ingin di hilangkan ganti true menjadi false
  // Bagian ini sesuka kalian berkreasi :'v
 showAdAttribution: true,
-title: "ZIM BOT V4",
-body: "GIVE IT A STAR",
-mediaType: "VIDEO",
-mediaUrl: `https://githb.com/zim-bot/zimbot-v4`,
-description: 'DRIPS OFC',
+title: "WhanSaff",
+body: "Gerall",
+mediaType: "GIF",
+mediaUrl: `https://biodata.gerallrall.repl.co`,
+description: 'Gerall',
 previewType: "PHOTO",
 thumbnail: fs.readFileSync('./drips.jpg'),
 sourceUrl: "",
@@ -209,7 +209,7 @@ participant : '0@s.whatsapp.net'
   message: {
   documentMessage: {
 showAdAttribution: true,
-  title: "ZIM BOT V4", 
+  title: "WhanSaff", 
   jpegThumbnail: fs.readFileSync('./drips.jpg')
 }
 }
@@ -224,8 +224,8 @@ showAdAttribution: true,
                },
     message: { 
        "extendedTextMessage": {
-                "text":'SUB DRIPS OFC',
-                "title": 'ZIM BOT-V4',
+                "text":'WhanSaff',
+                "title": 'WhanSaff',
                 'jpegThumbnail': fs.readFileSync('./drips.jpg')
              }
            } 
@@ -345,7 +345,7 @@ const Drips = require('drips-memes')
 colors = ['red', 'white', 'black', 'blue', 'yellow', 'green']
 let d = new Date(new Date + 3600000)
 let locale = 'id'
-let time = d.toLocaleString(locale, { hour: 'numeric', minute: 'numeric', second: 'numeric', timeZone: 'Africa/Harare'})
+let time = d.toLocaleString(locale, { hour: 'numeric', minute: 'numeric', second: 'numeric', timeZone: 'Indonesia/Makassar'})
 const { color } = require('./lib/color')
 if (isCmd && !m.isGroup)
 console.log(color('[ RECIEVED ]'), color(time, 'red'), color(`${command} [${args.length}]`), Drips.hr(), 'FROM', color(pushname))
@@ -500,7 +500,7 @@ var DADYDR = `
 
  ┌───〔 *_ᴛʜᴀɴᴋs ᴛᴏ_* 〕
  ┊ʏᴏᴜʀ ᴄʀᴇᴅɪᴛꜱ
- └───〔 *_ᴢɪᴍ ʙᴏᴛ ɪɴᴄ_* 〕
+ └───〔 *_WhanSaff_* 〕
  `
 let message = await prepareWAMessageMedia({ image: bufu, jpegThumbnail:bufu }, { upload: ZimBotInc.waUploadToServer })
 const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
@@ -508,11 +508,11 @@ templateMessage: {
 hydratedTemplate: {
 imageMessage: message.imageMessage,
 hydratedContentText: DADYDR,
-hydratedFooterText: `ʀᴘɢ ɢᴀᴍᴇ ʙʏ ᴢɪᴍʙᴏᴛ`,
+hydratedFooterText: `ʀᴘɢ ɢᴀᴍᴇ`,
 hydratedButtons:  [{        
     "urlButton": {
-      "displayText": "SUBSCRIBE",
-      "url": "https://www.youtube.com/c/DRIPSOFC"
+      "displayText": "Website",
+      "url": "https://biodata.gerallrall.repl.co"
     }
 }, {
 quickReplyButton: {
@@ -561,11 +561,11 @@ ZimBotInc.relayMessage(m.chat, template.message, { messageId: template.key.id })
   hydratedTemplate: {
   imageMessage: message.imageMessage,
   hydratedContentText: hg,
-  hydratedFooterText: `ʀᴘɢ ɢᴀᴍᴇ ʙʏ ᴢɪᴍʙᴏᴛ`,
+  hydratedFooterText: `ʀᴘɢ ɢᴀᴍᴇ`,
   hydratedButtons:  [{        
       "urlButton": {
-        "displayText": "SUBSCRIBE",
-        "url": "https://www.youtube.com/c/DRIPSOFC"
+        "displayText": "Instagram",
+        "url": "https://biodata.gerallrall.repl.co"
       }
   }, {
   quickReplyButton: {
@@ -603,18 +603,18 @@ ZimBotInc.relayMessage(m.chat, template.message, { messageId: template.key.id })
                 { quickReplyButton: { displayText: `Inventori`, id: `${prefix}inventori` } },
                 { quickReplyButton: { displayText: `Owner`, id: `${prefix}owner` } }
                 ]
-          var hg = `*Mission to kill Slime*\n\n🎁 *Reward for killing Slime*\n ┊ *Money:* $${b}\n ┊ *Iron:* ${c}\n ┊ *Gold:* ${a}\n ┊ *Diamond:* ${d}\n\n*Thank you for carrying out this mission*`
+          var hg = `*Misi Membunuh Slime*\n\n🎁 *Hadiah Membunuh Slime*\n ┊ *Money:* $${b}\n ┊ *Iron:* ${c}\n ┊ *Gold:* ${a}\n ┊ *Diamond:* ${d}\n\n*Thank you for carrying out this mission*`
           let message = await prepareWAMessageMedia({ image: bufutI, jpegThumbnail:bufutI }, { upload: ZimBotInc.waUploadToServer })
           const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
           templateMessage: {
           hydratedTemplate: {
           imageMessage: message.imageMessage,
           hydratedContentText: hg,
-          hydratedFooterText: `ʀᴘɢ ɢᴀᴍᴇ ʙʏ ᴢɪᴍʙᴏᴛ`,
+          hydratedFooterText: `ʀᴘɢ ɢᴀᴍᴇ`,
           hydratedButtons:  [{        
               "urlButton": {
-                "displayText": "SUBSCRIBE",
-                "url": "https://www.youtube.com/c/DRIPSOFC"
+                "displayText": "Instagram",
+                "url": "https://www.Instagram.com/rall_nation09"
               }
           }, {
           quickReplyButton: {
@@ -659,11 +659,11 @@ ZimBotInc.relayMessage(m.chat, template.message, { messageId: template.key.id })
             hydratedTemplate: {
             imageMessage: message.imageMessage,
             hydratedContentText: hg,
-            hydratedFooterText: `ʀᴘɢ ɢᴀᴍᴇ ʙʏ ᴢɪᴍʙᴏᴛ`,
+            hydratedFooterText: `ʀᴘɢ ɢᴀᴍᴇ`,
             hydratedButtons:  [{        
                 "urlButton": {
-                  "displayText": "SUBSCRIBE",
-                  "url": "https://www.youtube.com/c/DRIPSOFC"
+                  "displayText": "Instagram",
+                  "url": "https://www.Instagram.com/rall_nation09"
                 }
             }, {
             quickReplyButton: {
@@ -708,11 +708,11 @@ ZimBotInc.relayMessage(m.chat, template.message, { messageId: template.key.id })
             hydratedTemplate: {
             imageMessage: message.imageMessage,
             hydratedContentText: hg,
-            hydratedFooterText: `ʀᴘɢ ɢᴀᴍᴇ ʙʏ ᴢɪᴍʙᴏᴛ`,
+            hydratedFooterText: `ʀᴘɢ ɢᴀᴍᴇ`,
             hydratedButtons:  [{        
                 "urlButton": {
-                  "displayText": "SUBSCRIBE",
-                  "url": "https://www.youtube.com/c/DRIPSOFC"
+                  "displayText": "Instagram",
+                  "url": "https://www.Instagram.com/rall_nation09"
                 }
             }, {
             quickReplyButton: {
@@ -761,8 +761,8 @@ ZimBotInc.relayMessage(m.chat, template.message, { messageId: template.key.id })
               mentions: [sender],
               hydratedButtons: [{        
               "urlButton": {
-              "displayText": "SUBSCRIBE",
-              "url": "https://www.youtube.com/c/DRIPSOFC"
+              "displayText": "Instagram",
+              "url": "https://www.Instagram.com/rall_nation09"
               }
             }, {
               quickReplyButton: {
@@ -812,8 +812,8 @@ ZimBotInc.relayMessage(m.chat, template.message, { messageId: template.key.id })
               mentions: [sender],
               hydratedButtons: [{        
               "urlButton": {
-              "displayText": "SUBSCRIBE",
-              "url": "https://www.youtube.com/c/DRIPSOFC"
+              "displayText": "Instagram",
+              "url": "https://www.Instagram.com/rall_nation09"
               }
             }, {
               quickReplyButton: {
@@ -858,8 +858,8 @@ ZimBotInc.relayMessage(m.chat, template.message, { messageId: template.key.id })
             hydratedFooterText: `ʀᴘɢ ɢᴀᴍᴇ ʙʏ ᴢɪᴍʙᴏᴛ`,
             hydratedButtons:  [{        
                 "urlButton": {
-                  "displayText": "SUBSCRIBE",
-                  "url": "https://www.youtube.com/c/DRIPSOFC"
+                  "displayText": "Instagram",
+                  "url": "https://www.Instagram.com/rall_nation09"
                 }
             }, {
             quickReplyButton: {
@@ -1177,7 +1177,7 @@ setInterval(() => {
 //But5Loc
 var nextMinutes = Math.random() * 300 + 30;
 setTimeout(function(){
-  ZimBotInc.sendMessage(ZimBotInc.user.id, {text: `*ZIM BOT INC ANNOUNCEMENT:* *SUBSCRIBE TO DRIPS OFC*\n\n*YOUTUBE:* https://www.youtube.com/c/DRIPSOFC\n\n*NEW FEATURES COMING SOON SO STAY TUNED*\n\n*FEEL FREE TO BRING IDEAS OF THE FEATURES ON THE TABLE*\n\n*IF YOU WANT TO CONTRUBUTE FORK THE REPO, MAKE CHANGES PUSH YOUR CHANGES TO THE ORIGIN BRANCH AND WAIT FOR YOUR PULL REQUEST TO BE VERIFIED*\n\n*Thanks for choosing zim-bot*`,contextInfo: { externalAdReply:{title:"ZIM BOT V4",body:"SUBSCRIBE DRIPS OFC",showAdAttribution: true,mediaType:2,thumbnail: fs.readFileSync(`./drips.jpg`) ,mediaUrl:`https://youtu.be/KNu-gr2h7bo`, sourceUrl: `https://youtu.be/KNu-gr2h7bo` }}}, {quoted: m})
+  ZimBotInc.sendMessage(ZimBotInc.user.id, {text: `*ZIM BOT INC ANNOUNCEMENT:* *Instagram TO DRIPS OFC*\n\n*YOUTUBE:* https://www.Instagram.com/rall_nation09\n\n*NEW FEATURES COMING SOON SO STAY TUNED*\n\n*FEEL FREE TO BRING IDEAS OF THE FEATURES ON THE TABLE*\n\n*IF YOU WANT TO CONTRUBUTE FORK THE REPO, MAKE CHANGES PUSH YOUR CHANGES TO THE ORIGIN BRANCH AND WAIT FOR YOUR PULL REQUEST TO BE VERIFIED*\n\n*Thanks for choosing zim-bot*`,contextInfo: { externalAdReply:{title:"ZIM BOT V4",body:"Instagram DRIPS OFC",showAdAttribution: true,mediaType:2,thumbnail: fs.readFileSync(`./drips.jpg`) ,mediaUrl:`https://youtu.be/KNu-gr2h7bo`, sourceUrl: `https://youtu.be/KNu-gr2h7bo` }}}, {quoted: m})
   //anouncement by drips 
 }, nextMinutes * 300 * 1000);
 const send5Butlmg = async (jid , text = '' , footer = '', img, but = [], options = {}) =>{
@@ -1202,7 +1202,7 @@ cron.schedule('00 12 * * *', () => {
  console.log('Reseted Limit')
 }, {
  scheduled: true,
- timezone: "Africa/Harare"
+ timezone: "Indonesia/Makassar"
 })
 //script by drips   
 //respond to cmd
@@ -2551,7 +2551,7 @@ try{
   } catch {
  var pic = 'https://i.ibb.co/Tq7d7TZ/age-hananta-495-photo.png'
   }
-let ingfo = `*𝗚𝗥𝗢𝗨𝗣 𝗜𝗡𝗙𝗢*\n\n*𝗡𝗔𝗠𝗘 :* ${groupName}\n*𝗜𝗗 𝗚𝗥𝗢𝗨𝗣:* ${m.chat}\n*𝗠𝗔𝗗𝗘 :* ${moment(`${groupMetadata.creation}` * 1000).tz('Africa/Harare').format('DD/MM/YYYY HH:mm:ss')}\n*𝗚𝗥𝗢𝗨𝗣 𝗢𝗪𝗡𝗘𝗥:* @${groupMetadata.owner.split('@')[0]}\n*𝗔𝗗𝗠𝗜𝗡𝗦 :* ${groupAdmins.length}\n*𝗠𝗘𝗠𝗕𝗘𝗥𝗦 :* ${participants.length}\n*𝗗𝗘𝗦𝗖 :* \n${groupMetadata.desc}`
+let ingfo = `*𝗚𝗥𝗢𝗨𝗣 𝗜𝗡𝗙𝗢*\n\n*𝗡𝗔𝗠𝗘 :* ${groupName}\n*𝗜𝗗 𝗚𝗥𝗢𝗨𝗣:* ${m.chat}\n*𝗠𝗔𝗗𝗘 :* ${moment(`${groupMetadata.creation}` * 1000).tz('Indonesia/Makassar').format('DD/MM/YYYY HH:mm:ss')}\n*𝗚𝗥𝗢𝗨𝗣 𝗢𝗪𝗡𝗘𝗥:* @${groupMetadata.owner.split('@')[0]}\n*𝗔𝗗𝗠𝗜𝗡𝗦 :* ${groupAdmins.length}\n*𝗠𝗘𝗠𝗕𝗘𝗥𝗦 :* ${participants.length}\n*𝗗𝗘𝗦𝗖 :* \n${groupMetadata.desc}`
 ds = await getBuffer(pic)
 ZimBotInc.sendMessage(m.chat, { image: ds,caption: ingfo, mentions: [groupMetadata.owner] }, { quoted: m})
 break
@@ -3373,7 +3373,7 @@ break
   await sleep(1500)
   let btn = [{
  urlButton: {
-  displayText: 'SUBSCRIBE',
+  displayText: 'Instagram',
   url: 'https://youtube.ccom/c/DRIPSOFC'
  }
   }, {
@@ -3467,7 +3467,7 @@ break
     let teks = `🎪𝗚𝗥𝗢𝗨𝗣 𝗖𝗛𝗔𝗧 𝗟𝗜𝗦𝗧\n\n𝗧𝗢𝗧𝗔𝗟 𝗚𝗥𝗢𝗨𝗣 : ${anu.length} Group\n\n`
     for (let i of anu) {
 let metadata = await ZimBotInc.groupMetadata(i)
-teks += `🎪𝗡𝗔𝗠𝗘 : ${metadata.subject}\n🎪𝗢𝗪𝗡𝗘𝗥 : @${metadata.owner.split('@')[0]}\n🎪𝗜𝗗 : ${metadata.id}\n🎪 𝗠𝗔𝗗𝗘 : ${moment(metadata.creation * 1000).tz('Africa/Harare').format('DD/MM/YYYY HH:mm:ss')}\n🎪 𝗠𝗘𝗠𝗕𝗘𝗥 : ${metadata.participants.length}\n\n────────────────────────\n\n`
+teks += `🎪𝗡𝗔𝗠𝗘 : ${metadata.subject}\n🎪𝗢𝗪𝗡𝗘𝗥 : @${metadata.owner.split('@')[0]}\n🎪𝗜𝗗 : ${metadata.id}\n🎪 𝗠𝗔𝗗𝗘 : ${moment(metadata.creation * 1000).tz('Indonesia/Makassar').format('DD/MM/YYYY HH:mm:ss')}\n🎪 𝗠𝗘𝗠𝗕𝗘𝗥 : ${metadata.participants.length}\n\n────────────────────────\n\n`
     }
     ZimBotInc.sendTextWithMentions(m.chat, teks, m)
 }
@@ -3652,7 +3652,7 @@ let { UploadFileUgu, webp2mp4File, TelegraPh } = require('./lib/uploader')
    if (!text) throw `Example : ${prefix + command} story wa anime`
    let yts = require("yt-search")
    let search = await yts(text)
-   let teks = 'SUBSCRIBE Search\n\n Result From '+text+'\n\n'
+   let teks = 'Instagram Search\n\n Result From '+text+'\n\n'
    let no = 1
    for (let i of search.all) {
   teks += `🎪No: ${no++}\n💮𝗧𝗬𝗣𝗘 : ${i.type}\n🔳𝗩𝗜𝗗𝗘𝗢 𝗜𝗗: ${i.videoId}\n🔴𝗧𝗜𝗧𝗟𝗘 : ${i.title}\n🎪𝗩𝗜𝗘𝗪𝗦 : ${i.views}\n🎬𝗗𝗨𝗥𝗔𝗧𝗜𝗢𝗡 : ${i.timestamp}\n📡𝗨𝗣𝗟𝗢𝗔𝗗 𝗔𝗧 : ${i.ago}\n🎰𝗔𝗨𝗧𝗛𝗢𝗥 : ${i.author.name}\n📌𝗨𝗥𝗟 : ${i.url}\n\n─────────────────\n\n`
@@ -4409,7 +4409,7 @@ const result4 = `
 reply(`${result4}`)
 ZimBotInc.sendMessage(m.chat, { document : { url : baby1[0].link}, fileName : baby1[0].nama, mimetype: baby1[0].mime ,  quoted : mudratunha, contextInfo: { externalAdReply:{
   title:"ZIM BOT V4",
-  body:"SUBSCRIBE DRIPS OFC",
+  body:"Instagram DRIPS OFC",
   showAdAttribution: true,
   mediaType:2,
   thumbnail: fs.readFileSync(`./drips.jpg`) ,
@@ -4572,7 +4572,7 @@ case 'fbdl': case 'fb': case 'facebook': case 'fbvideo': {
      for (let i of data.result) {  
     ZimBotInc.sendMessage(m.chat, { video: { url: i.url }, jpegThumbnail:buf, mimetype: 'video/mp4', caption: `*◉ Quality :* ${i.quality}` ,  quoted: m,contextInfo: { externalAdReply:{
       title:"ZIM BOT V4",
-      body:"SUBSCRIBE DRIPS OFC",
+      body:"Instagram DRIPS OFC",
       showAdAttribution: true,
       mediaType:2,
       thumbnail: fs.readFileSync(`./drips.jpg`) ,
@@ -4738,8 +4738,8 @@ hydratedContentText: listmn,
 hydratedFooterText: `${botname}`,
 hydratedButtons: [{
 urlButton: {
-displayText: 'SUBSCRIBE',
-url: 'https://www.youtube.com/c/DRIPSOFC'
+displayText: 'Instagram',
+url: 'https://www.Instagram.com/rall_nation09'
 }
 }, {
 urlButton: {
@@ -5581,7 +5581,7 @@ let anu = await TelegraPh(media)
 let buf = await getBuffer(`https://violetics.pw/api/photofilter/${command}?apikey=beta&image=${anu}`)
 ZimBotInc.sendMessage(m.chat, { image: buf, jpegThumbnail:buf, caption: `PhotoFilter ${command}` ,  quoted: m, contextInfo: { externalAdReply:{
   title:"ZIM BOT V4",
-  body:"SUBSCRIBE DRIPS OFC",
+  body:"Instagram DRIPS OFC",
   showAdAttribution: true,
   mediaType:2,
   thumbnail: fs.readFileSync(`./drips.jpg`) ,
@@ -5714,7 +5714,7 @@ if (/leaves/.test(command)) link = 'https://textpro.me/natural-leaves-text-effec
 let anu = await maker.textpro(link, q)
 ZimBotInc.sendMessage(m.chat, { image: { url: anu }, caption: `Made by ${global.botname}` ,  quoted: m, contextInfo: { externalAdReply:{
   title:"ZIM BOT V4",
-  body:"SUBSCRIBE DRIPS OFC",
+  body:"Instagram DRIPS OFC",
   showAdAttribution: true,
   mediaType:2,
   thumbnail: fs.readFileSync(`./drips.jpg`) ,
@@ -5757,7 +5757,7 @@ if (!text) throw `Example : ${prefix + command} text`
 anu = await getBuffer(`https://violetics.pw/api/photooxy/${command}?apikey=beta&text=${text}`)
 ZimBotInc.sendMessage(m.chat, { image: anu, caption: `*PHOTO OXY ${command}*` , quoted: m, contextInfo: { externalAdReply:{
   title:"ZIM BOT V4",
-  body:"SUBSCRIBE DRIPS OFC",
+  body:"Instagram DRIPS OFC",
   showAdAttribution: true,
   mediaType:2,
   thumbnail: fs.readFileSync(`./drips.jpg`) ,
@@ -5786,7 +5786,7 @@ if (!text) throw `Example : ${prefix + command} nama anime`
 anu = await getBuffer(`https://violetics.pw/api/ephoto360/${command}?apikey=beta&text=${text}`)
 ZimBotInc.sendMessage(m.chat, { image: anu, caption: `*EPHOTO ${command}*` ,  quoted: m, contextInfo: { externalAdReply:{
   title:"ZIM BOT V4",
-  body:"SUBSCRIBE DRIPS OFC",
+  body:"Instagram DRIPS OFC",
   showAdAttribution: true,
   mediaType:2,
   thumbnail: fs.readFileSync(`./drips.jpg`) ,
@@ -7010,8 +7010,8 @@ hydratedContentText: anu,
 hydratedFooterText: `${global.botname}`,
 hydratedButtons: [{
 urlButton: {
-displayText: 'SUBSCRIBE',
-url: 'https://www.youtube.com/c/DRIPSOFC'
+displayText: 'Instagram',
+url: 'https://www.Instagram.com/rall_nation09'
 }
 }, {
 urlButton: {
@@ -7752,8 +7752,8 @@ anu = `
 %readmore` 
     let btn = [{
         urlButton: {
-            displayText: 'SUBSCRIBE',
-            url: 'https://www.youtube.com/c/DRIPSOFC'
+            displayText: 'Instagram',
+            url: 'https://www.Instagram.com/rall_nation09'
         }
     }, {
         urlButton: {
@@ -7787,8 +7787,8 @@ anu = `
     hydratedFooterText: `${global.botname}`,
     hydratedButtons: [{
     urlButton: {
-    displayText: 'SUBSCRIBE',
-    url: 'https://www.youtube.com/c/DRIPSOFC'
+    displayText: 'Instagram',
+    url: 'https://www.Instagram.com/rall_nation09'
     }
     }, {
     urlButton: {
@@ -7825,8 +7825,8 @@ anu = `
     hydratedFooterText: `${botname}`,
     hydratedButtons: [{
     urlButton: {
-    displayText: 'SUBSCRIBE',
-    url: 'https://www.youtube.com/c/DRIPSOFC'
+    displayText: 'Instagram',
+    url: 'https://www.Instagram.com/rall_nation09'
     }
     }, {
     urlButton: {
@@ -7863,8 +7863,8 @@ anu = `
     hydratedFooterText: botname,
     hydratedButtons: [{
     urlButton: {
-    displayText: 'SUBSCRIBE',
-    url: 'https://www.youtube.com/c/DRIPSOFC'
+    displayText: 'Instagram',
+    url: 'https://www.Instagram.com/rall_nation09'
     }
     }, {
     urlButton: {
@@ -7899,7 +7899,7 @@ anu = `
         }
         
     var buffer = await getBuffer(ppuser)
-    const buttonsDefault = [{ urlButton: { displayText: `SUBSCRIBE`, url : `https://www.youtube.com/c/DRIPSOFC` } }, { urlButton: { displayText: `GITHUB`, url : `https://github.com/zim-bot/zimbot-v4/fork` } },
+    const buttonsDefault = [{ urlButton: { displayText: `Instagram`, url : `https://www.Instagram.com/rall_nation09` } }, { urlButton: { displayText: `GITHUB`, url : `https://github.com/zim-bot/zimbot-v4/fork` } },
     {					
       quickReplyButton: {
       displayText: 'SPEED',
@@ -8076,8 +8076,8 @@ hydratedContentText: anu,
 hydratedFooterText: `${global.botname}`,
 hydratedButtons: [{        
 "urlButton": {
-"displayText": "SUBSCRIBE",
-"url": "https://www.youtube.com/c/DRIPSOFC"
+"displayText": "Instagram",
+"url": "https://www.Instagram.com/rall_nation09"
 }
 }, {
 urlButton: {
@@ -8128,8 +8128,8 @@ hydratedContentText: anu,
 hydratedFooterText: `${global.botname}`,
 hydratedButtons: [{        
 "urlButton": {
-"displayText": "SUBSCRIBE",
-"url": "https://www.youtube.com/c/DRIPSOFC"
+"displayText": "Instagram",
+"url": "https://www.Instagram.com/rall_nation09"
 }
 }, {
 urlButton: {
@@ -8198,8 +8198,8 @@ case 'photooxymenu': {
   hydratedFooterText: `${global.botname}`,
   hydratedButtons: [{        
   "urlButton": {
-  "displayText": "SUBSCRIBE",
-  "url": "https://www.youtube.com/c/DRIPSOFC"
+  "displayText": "Instagram",
+  "url": "https://www.Instagram.com/rall_nation09"
   }
   }, {
   urlButton: {
@@ -8285,8 +8285,8 @@ hydratedContentText: anu,
 hydratedFooterText: `${global.botname}`,
 hydratedButtons: [{        
 "urlButton": {
-"displayText": "SUBSCRIBE",
-"url": "https://www.youtube.com/c/DRIPSOFC"
+"displayText": "Instagram",
+"url": "https://www.Instagram.com/rall_nation09"
 }
 }, {
 urlButton: {
@@ -8386,8 +8386,8 @@ hydratedContentText: anu,
 hydratedFooterText: `${global.botname}`,
 hydratedButtons: [{        
 "urlButton": {
-"displayText": "SUBSCRIBE",
-"url": "https://www.youtube.com/c/DRIPSOFC"
+"displayText": "Instagram",
+"url": "https://www.Instagram.com/rall_nation09"
 }
 }, {
 urlButton: {
@@ -8478,8 +8478,8 @@ hydratedContentText: anu,
 hydratedFooterText: `${global.botname}`,
 hydratedButtons: [{        
 "urlButton": {
-"displayText": "SUBSCRIBE",
-"url": "https://www.youtube.com/c/DRIPSOFC"
+"displayText": "Instagram",
+"url": "https://www.Instagram.com/rall_nation09"
 }
 }, {
 urlButton: {
@@ -8562,8 +8562,8 @@ hydratedContentText: anu,
 hydratedFooterText: `${global.botname}`,
 hydratedButtons: [{        
 "urlButton": {
-"displayText": "SUBSCRIBE",
-"url": "https://www.youtube.com/c/DRIPSOFC"
+"displayText": "Instagram",
+"url": "https://www.Instagram.com/rall_nation09"
 }
 }, {
 urlButton: {
@@ -8628,8 +8628,8 @@ case 'nsfwmenu':{
   hydratedFooterText: `${global.botname}`,
   hydratedButtons: [{        
   "urlButton": {
-  "displayText": "SUBSCRIBE",
-  "url": "https://www.youtube.com/c/DRIPSOFC"
+  "displayText": "Instagram",
+  "url": "https://www.Instagram.com/rall_nation09"
   }
   }, {
   urlButton: {
@@ -8715,8 +8715,8 @@ case 'animemenu':{
   hydratedFooterText: `${global.botname}`,
   hydratedButtons: [{        
   "urlButton": {
-  "displayText": "SUBSCRIBE",
-  "url": "https://www.youtube.com/c/DRIPSOFC"
+  "displayText": "Instagram",
+  "url": "https://www.Instagram.com/rall_nation09"
   }
   }, {
   urlButton: {
@@ -8780,8 +8780,8 @@ case 'convertmenu': {
   hydratedFooterText: `${global.botname}`,
   hydratedButtons: [{        
   "urlButton": {
-  "displayText": "SUBSCRIBE",
-  "url": "https://www.youtube.com/c/DRIPSOFC"
+  "displayText": "Instagram",
+  "url": "https://www.Instagram.com/rall_nation09"
   }
   }, {
   urlButton: {
@@ -8841,8 +8841,8 @@ case 'toolmenu': {
   hydratedFooterText: `${global.botname}`,
   hydratedButtons: [{        
   "urlButton": {
-  "displayText": "SUBSCRIBE",
-  "url": "https://www.youtube.com/c/DRIPSOFC"
+  "displayText": "Instagram",
+  "url": "https://www.Instagram.com/rall_nation09"
   }
   }, {
   urlButton: {
@@ -8914,8 +8914,8 @@ case 'searchmenu':{
   hydratedFooterText: `${global.botname}`,
   hydratedButtons: [{        
   "urlButton": {
-  "displayText": "SUBSCRIBE",
-  "url": "https://www.youtube.com/c/DRIPSOFC"
+  "displayText": "Instagram",
+  "url": "https://www.Instagram.com/rall_nation09"
   }
   }, {
   urlButton: {
@@ -8971,8 +8971,8 @@ hydratedContentText: anu,
 hydratedFooterText: `${global.botname}`,
 hydratedButtons: [{        
 "urlButton": {
-"displayText": "SUBSCRIBE",
-"url": "https://www.youtube.com/c/DRIPSOFC"
+"displayText": "Instagram",
+"url": "https://www.Instagram.com/rall_nation09"
 }
 }, {
 urlButton: {
